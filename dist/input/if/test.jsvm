@@ -1,0 +1,665 @@
+{
+    "main": {
+        "instructions": [
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "EQUAL",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "JMP_IF",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "if_0:52"
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "EQUAL",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "JMP_IF",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "if_56:157"
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "EQUAL",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "NOT",
+                "args": []
+            },
+            {
+                "opcode": "JMP_IF",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "else_56:157"
+                    }
+                ]
+            },
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 9
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "TEST OUTER CONTEXT"
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 9
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "dependency",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "log"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "undefined",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 9
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            }
+        ],
+        "inheritsContext": true
+    },
+    "if_0:52": {
+        "instructions": [
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 1
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "BOTS GOING BRRR"
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "dependency",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "log"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "undefined",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            }
+        ],
+        "inheritsContext": true
+    },
+    "if_56:157": {
+        "instructions": [
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 4
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "BOTS GOING BRRR"
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "dependency",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "log"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "undefined",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            }
+        ],
+        "inheritsContext": true
+    },
+    "else_56:157": {
+        "instructions": [
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 7
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "BOTS NOT GOING BRR"
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 8
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 7
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 8
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "dependency",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "log"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "undefined",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 7
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            }
+        ],
+        "inheritsContext": true
+    }
+}
