@@ -1,0 +1,491 @@
+{
+    "main": {
+        "instructions": [
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 0
+                    },
+                    {
+                        "type": "string",
+                        "value": "https://raw.githubusercontent.com/ebanayaVM/vm-comp/main/testinj"
+                    }
+                ]
+            },
+            {
+                "opcode": "NEW_XMLHTTPREQUEST",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 1
+                    },
+                    {
+                        "type": "variable",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 3
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "GET"
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "boolean",
+                        "value": false
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 6
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "open"
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "CALL_MEMBER_EXPRESSION",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 7
+                    }
+                ]
+            },
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 8
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "send"
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 8
+                    }
+                ]
+            },
+            {
+                "opcode": "CALL_MEMBER_EXPRESSION",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 9
+                    }
+                ]
+            },
+            {
+                "opcode": "STORE",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 10
+                    },
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "responseText"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 11
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 11
+                    }
+                ]
+            },
+            {
+                "opcode": "INIT_ARRAY",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 12
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "array",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "string",
+                        "value": "push"
+                    }
+                ]
+            },
+            {
+                "opcode": "GET_PROPERTY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 12
+                    }
+                ]
+            },
+            {
+                "opcode": "APPLY",
+                "args": []
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "dependency",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "opcode": "PUSH",
+                "args": [
+                    {
+                        "type": "variable",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "opcode": "CALL",
+                "args": []
+            },
+            {
+                "opcode": "POP",
+                "args": [
+                    {
+                        "type": "number",
+                        "value": 13
+                    }
+                ]
+            }
+        ],
+        "inheritsContext": true
+    }
+}
