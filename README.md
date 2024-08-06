@@ -10,4 +10,5 @@ ___
 ### №2
 Изменить виртулку таким образом, чтобы она была похожа на виртуалку пикса ( Это переменные в одну букву и его методы(кроме atob). ).
 ___
-https://raw.githubusercontent.com/PixelMelt/Javascript-Crackme/main/Level-2.js
+https://raw.githubusercontent.com/PixelMelt/Javascript-Crackme/main/Level-2.js или файл в моем репозиторий.
+ 
